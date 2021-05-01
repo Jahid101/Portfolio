@@ -8,8 +8,8 @@ const Header = () => {
 
             <div style={{ marginBottom: '160px' }} class="carousel-caption d-none d-md-block">
                 <strong>
-                    <h5 style={{ color: 'teal' }}>Hi there!</h5>
-                    <h3 style={{ color: 'blue' }}>I am,</h3>
+                    <h5 style={{ color: 'teal' }}>Hi,
+                    <span style={{ color: 'blue' }}> I am</span></h5>
                     <h1 style={{ fontSize: '60px', color: 'purple' }}>Md Jahid Hasan Anik</h1>
                     <h4 style={{ color: 'black' }}>"Full Stack Web Developer"</h4>
                     <br />
