@@ -1,12 +1,12 @@
 import React from 'react';
-import pic from '../../../image/20201214_122719.jpg';
+import pic from '../../../image/I.PNG';
 
 const About = () => {
 
     return (
         <div className="row p-5 mt-5 bg-dark text-light m-1" id="about">
             <div className="col-md-6">
-                <img className="w-25" src={pic} alt="" />
+                <img style={{height: "400px"}} src={pic} alt="" />
             </div>
 
             <div className="col-md-6">

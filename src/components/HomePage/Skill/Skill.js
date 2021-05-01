@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-        <div style={{marginLeft: '80px', backgroundColor: 'teal'}} className="row container mt-5 text-light">
+        <div style={{marginLeft: '80px', backgroundColor: 'teal'}} className="row container mt-5 text-light" id="skill">
             <h1 className="text-center pt-5 mb-5">Skills</h1>
             <div className="col-md-4">
                 <h3 className="text-center pt-5">Frontend</h3>
