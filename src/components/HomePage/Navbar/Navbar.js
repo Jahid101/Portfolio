@@ -6,31 +6,32 @@ import { faFacebookSquare, faGithubSquare, faLinkedinIn } from '@fortawesome/fre
 const Navbar = () => {
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success m-2 rounded">
             <div class="container-fluid">
+                <Link class="navbar-brand text-light" to="/home"><strong>Md Jahid Hasan Anik</strong></Link>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
+                    <ul style={{ fontSize: '17px' }} class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
+                            <Link class="nav-link active text-light" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li class="nav-item ms-4">
-                            <Link class="nav-link active" to="#about">About</Link>
+                            <Link class="nav-link active text-light" to="/project">Projects</Link>
                         </li>
                         <li class="nav-item ms-4">
-                            <Link class="nav-link active" to="/project">Projects</Link>
+                            <Link class="nav-link active text-light" to="/resume">Resume</Link>
                         </li>
                         <li class="nav-item ms-4">
-                            <Link class="nav-link active" to="/resume">Resume</Link>
+                            <Link class="nav-link active text-light" to="/blog">Blogs</Link>
                         </li>
                         <li class="nav-item ms-4">
-                            <Link class="nav-link active" to="/blog">Blogs</Link>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <Link class="nav-link active" to="/contact">Contact</Link>
+                            <Link class="nav-link active text-light" to="/contact">Contact</Link>
                         </li>
 
-                        <li style={{marginLeft: '250px', marginRight: '150px'}}>
+                        <li style={{ marginLeft: '200px', marginRight: '150px' }}>
                             <a href="https://www.facebook.com/jahed.anik/" target="_blank" rel="noopener noreferrer">
                                 <span className="btn">
                                     <FontAwesomeIcon icon={faFacebookSquare} />

@@ -4,7 +4,7 @@ import pic from '../../../image/20201214_122719.jpg';
 const About = () => {
 
     return (
-        <div className="row p-5 mt-5 bg-dark text-light" id="about">
+        <div className="row p-5 mt-5 bg-dark text-light m-1" id="about">
             <div className="col-md-6">
                 <img className="w-25" src={pic} alt="" />
             </div>
@@ -14,8 +14,25 @@ const About = () => {
                     <p>Who am I ?</p>
                 </strong>
                 <h1>ABOUT ME</h1>
-                <p className="mt-4">I have been building web sites and <br/><span style={{color: 'purple', fontSize: '20px'}}><strong>tried</strong></span> to build according to the best trends.</p>
-                <p>My main goal is how to create <span style={{color: 'purple', fontSize: '20px'}}><strong>project timely.</strong><br/></span>I prioritize the Frontend most though I can work <br/> with Frontend and Backend both.</p>
+                <p className="mt-4">I have been building web sites and <br /><span style={{ color: 'purple', fontSize: '20px' }}><strong>tried</strong></span> to build according to the best trends.</p>
+
+                <p>My main goal is how to create <span style={{ color: 'purple', fontSize: '20px' }}><strong>project timely.</strong><br /></span>I prioritize the Frontend most though I can work <br /> with Frontend and Backend both.</p>
+
+                <p><span style={{ color: 'purple' }}>
+                    <strong>
+                        Name:
+                    </strong>
+                </span> Md Jahid Hasan Anik.</p>
+
+                <p><span style={{ color: 'purple' }}>
+                    <strong>
+                        Email:
+                    </strong>
+                </span> jahidhasananik.official@gmail.com</p>
+
+                <a href="https://drive.google.com/uc?export=download&id=1k2VF4AHZx97FaDzVUvRXCGElnJ4R5vZW" target="_blank" rel="noopener noreferrer">
+                    <button className="btn btn-info">Download Resume</button>
+                </a>
             </div>
         </div>
     );
