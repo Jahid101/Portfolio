@@ -33,17 +33,17 @@ const Navbar = () => {
 
                         <li style={{ marginLeft: '200px', marginRight: '150px' }}>
                             <a href="https://www.facebook.com/jahed.anik/" target="_blank" rel="noopener noreferrer">
-                                <span className="btn">
+                                <span className="btn bg-light rounded">
                                     <FontAwesomeIcon icon={faFacebookSquare} />
                                 </span>
                             </a>
                             <a href="https://github.com/Jahid101" target="_blank" rel="noopener noreferrer">
-                                <span className="btn">
+                                <span className="btn bg-light rounded ms-2">
                                     <FontAwesomeIcon icon={faGithubSquare} />
                                 </span>
                             </a>
                             <a href="https://www.linkedin.com/in/md-jahid-hasan-anik/" target="_blank" rel="noopener noreferrer">
-                                <span className="btn">
+                                <span className="btn bg-light rounded ms-2">
                                     <FontAwesomeIcon icon={faLinkedinIn} />
                                 </span>
                             </a>
