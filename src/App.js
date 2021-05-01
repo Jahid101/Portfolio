@@ -11,10 +11,12 @@ import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Project from './components/Project/Project';
 import Resume from './components/Resume/Resume';
+import Navbar from './components/HomePage/Navbar/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar></Navbar>
       <Switch>
         <Route exact path="/">
           <Home></Home>
