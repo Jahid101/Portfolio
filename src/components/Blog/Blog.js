@@ -1,8 +1,10 @@
 import React from 'react';
-import blogPic from '../../image/Capture.PNG';
+import blogPic from '../../image/Capture2.PNG';
+
 
 
 const Blog = () => {
+
     return (
         <div className="row p-5 mt-5 bg-dark text-light m-1" id="about">
             <div className="col-md-6">
@@ -13,7 +15,7 @@ const Blog = () => {
                 <h1>Blog</h1>
                 <p className="mt-4">I Like to write<br /> blogs on my free time.</p>
 
-                <a href="https://medium.com/@jahidhasananik.official" target="_blank" rel="noopener noreferrer">
+                <a href="https://jahidhasananik-official.medium.com/fundamental-concepts-of-javascript-875018ba9dba" target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-info">See my Blogs</button>
                 </a>
             </div>
