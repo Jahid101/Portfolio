@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from "emailjs-com";
 
+//npm i emailjs-com --save
+
 const Email = () => {
 
     const sendEmail = (e) => {

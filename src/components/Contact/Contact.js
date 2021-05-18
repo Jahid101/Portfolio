@@ -1,10 +1,11 @@
 import { faFacebookSquare, faGithubSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Email from '../Email/Email';
 
+
 const Contact = () => {
+    
     return (
         <div style={{ backgroundColor: '#2c003f' }} className="text-center p-5 text-light mt-5 mb-4 m-2 rounded row">
             <h1>Contact Me</h1>
