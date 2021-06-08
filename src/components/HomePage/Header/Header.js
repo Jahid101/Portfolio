@@ -1,10 +1,12 @@
 import React from 'react';
+import headerPic from '../../../image/headerPic.jpg';
+
 
 const Header = () => {
     return (
-        <div class="mt-3" data-bs-interval="10000">
+        <div class="mt-3">
 
-            <img style={{ height: '525px', opacity: '0.7' }} src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="..." />
+            <img style={{ height: '525px', opacity: '0.7' }} src={headerPic} class="d-block w-100" alt="..." />
 
             <div style={{ marginBottom: '160px' }} class="carousel-caption d-none d-md-block">
                 <strong>
