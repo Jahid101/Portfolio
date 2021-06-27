@@ -3,8 +3,13 @@ import React from 'react';
 const Resume = () => {
     return (
         <>
-            <a href="https://drive.google.com/uc?export=download&id=1k2VF4AHZx97FaDzVUvRXCGElnJ4R5vZW" target="_blank" rel="noopener noreferrer">
-                <button style={{ marginLeft: '85%' }} className="btn btn-primary mt-3">My Resume</button>
+        {/* https://drive.google.com/uc?export=download&id= */}
+        
+            <a href="https://drive.google.com/uc?export=download&id=1BYA3TLxjxPbJCfaviOGbLrdBkkae8tuC">
+                <button style={{ marginLeft: '78%' }} className="btn btn-primary mt-3">My CV</button>
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1zma6Bl-Hzr_2cPCiRvi-CAwaMiWiofof" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-primary mt-3 ms-3">My Resume</button>
             </a>
 
             <div style={{ marginLeft: '80px', backgroundColor: '#00022e' }} className="row container mt-3 text-light mb-3">

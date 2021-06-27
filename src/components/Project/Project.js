@@ -2,8 +2,36 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div className="pb-3" style={{backgroundColor: 'teal' }}>
+        <div className="pb-3" style={{ backgroundColor: 'teal' }}>
             <h1 className="text-center pt-5 text-light">My Projects</h1>
+
+
+            <div style={{ marginLeft: '75px', backgroundColor: '#00022e' }} className="row mt-5 rounded container text-light p-5 mb-3">
+                <h3 style={{ color: 'purple' }} className="text-center">
+                    <strong>"Mosque Management System"</strong>
+                </h3>
+
+                <div className="col-md-6 mt-3">
+                    <p>➼ Build a website about mosque management and mosque committee.</p>
+                    <p>➼ Created three different Dashboards for three different users (Admin, Committee Member, User).</p>
+                    <p>➼ Added a payment gateway(Stripe) for donations.</p>
+                    <p>➼ Added feature for admin to manage almost all kind of activities that also included generating reports as well.</p>
+                    <br />
+
+                    <a href="https://mosque-management-system-88bbe.web.app" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-success btn-lg ms-5">Live</button>
+                    </a>
+                    <a href="https://github.com/Jahid101/Mosque_Management_System_client" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-primary btn-lg ms-5">Code</button>
+                    </a>
+                </div>
+
+                <div className="col-md-6 mt-3">
+                    <img className="w-100" src="https://user-images.githubusercontent.com/76203694/123557476-c8ec1e00-d7b2-11eb-86ce-50bf707296f9.png" alt="" />
+                </div>
+
+            </div>
+
 
             <div style={{ marginLeft: '75px', backgroundColor: '#2c003f' }} className="row mt-5 rounded container text-light p-5">
                 <h3 className="text-center text-light">

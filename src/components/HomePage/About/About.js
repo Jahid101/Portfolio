@@ -30,8 +30,12 @@ const About = () => {
                     </strong>
                 </span> jahidhasananik.official@gmail.com</p>
 
-                <a href="https://drive.google.com/uc?export=download&id=1k2VF4AHZx97FaDzVUvRXCGElnJ4R5vZW" target="_blank" rel="noopener noreferrer">
-                    <button className="btn btn-info">Download Resume</button>
+                <a href="https://drive.google.com/uc?export=download&id=1BYA3TLxjxPbJCfaviOGbLrdBkkae8tuC" target="_blank" rel="noopener noreferrer">
+                    <button className="btn btn-info">Download CV</button>
+                </a>
+
+                <a href="https://drive.google.com/uc?export=download&id=1zma6Bl-Hzr_2cPCiRvi-CAwaMiWiofof" target="_blank" rel="noopener noreferrer">
+                    <button className="btn btn-info ms-3">Download Resume</button>
                 </a>
             </div>
         </div>
