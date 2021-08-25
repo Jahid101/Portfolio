@@ -36,7 +36,7 @@ const Skill = () => {
                             <span style={{ marginLeft: '40px' }}>Redux</span>
                         </div>
                         <div className="mt-5">
-                            <img style={{ width: '75px', marginLeft: '20px' }} src="https://cdn.worldvectorlogo.com/logos/react-router.svg" alt="" />
+                            <img style={{ width: '75px', marginLeft: '20px' }} src="https://miro.medium.com/max/698/1*TKvlTeNqtkp1s-eVB5Hrvg@2x.png" alt="" />
                             <span style={{ marginLeft: '30px' }}>React Router</span>
                         </div>
                         <div className="mt-5">
@@ -91,7 +91,7 @@ const Skill = () => {
                                 <span style={{ marginLeft: '40px' }}>Netlify</span>
                             </div>
                             <div className="mt-5">
-                                <img style={{ width: '90px', marginLeft: '30px' }} src="http://assets.stickpng.com/thumbs/58480873cef1014c0b5e48ea.png" alt="" />
+                                <img style={{ width: '90px', marginLeft: '30px' }} src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_bf0fb4cb7fe948c42f37ded73895638f/salesforce-heroku.png" alt="" />
                                 <span style={{ marginLeft: '40px' }}>Heroku</span>
                             </div>
                             <div className="mt-5">
